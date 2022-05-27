@@ -5,7 +5,8 @@ $(document).ready(function(){
 		$(this).children("nav").stop().slideDown();
 	} , function(){		
 		$(this).children("nav").stop().slideUp();
-	}); //메뉴 호버 끝
+	}
+); //메뉴 호버 끝
 	
 	//페이스 슬라이드 (자동)
 	const x = setInterval( y, 2800);
@@ -32,4 +33,3 @@ $(document).ready(function(){
 	
 		
 });//////////////////end
-​
